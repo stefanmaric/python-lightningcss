@@ -3,13 +3,13 @@ requires = ["maturin>=1.2,<2.0"]
 build-backend = "maturin"
 
 [project]
-name = "lightningcss"
+name = "lightningcss-bindings"
 description = "Python bindings for lightningcss."
 readme = "README.md"
 requires-python = ">=3.7"
 license = {"text" = "Apache-2.0"}
 authors = [
-    {"name" = "Daniel Foerster", "email" = "pydsigner@gmail.com"},
+    {"name" = "Stefan Maric", "email" = "8vmllgip@duck.com" },
 ]
 keywords = ["css", "minify"]
 classifiers = [
@@ -32,7 +32,7 @@ classifiers = [
 ]
 
 [project.urls]
-Source = "https://github.com/pydsigner/python-lightningcss"
+Source = "https://github.com/stefanmaric/python-lightningcss"
 
 
 [tool.maturin]
