@@ -10,6 +10,7 @@ on:
     branches:
       - main
       - master
+      - upgrades
     tags:
       - '*'
   pull_request:
