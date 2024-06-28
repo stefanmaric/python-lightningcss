@@ -6,7 +6,7 @@ build-backend = "maturin"
 name = "lightningcss-bindings"
 description = "Python bindings for lightningcss."
 readme = "README.md"
-requires-python = ">=3.7"
+requires-python = ">=3.11"
 license = {"text" = "Apache-2.0"}
 authors = [
     {"name" = "Stefan Maric", "email" = "8vmllgip@duck.com" },
@@ -21,10 +21,6 @@ classifiers = [
     "Programming Language :: Python :: Implementation :: PyPy",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3 :: Only",
-    "Programming Language :: Python :: 3.7",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Topic :: Internet :: WWW/HTTP",
